@@ -4,7 +4,7 @@ public class Person {
          protected String name;
          protected int age;
          protected char gender;
-		public Person(String name, int age, char gender) {
+		public Person(String name, int age, char gender) {             //parameterised constructor
 			super();
 			this.name = name;
 			this.age = age;
@@ -13,7 +13,7 @@ public class Person {
          
          
 
-		public String getName() {
+		public String getName() {            //getter and setter method
 			return name;
 		}
 
@@ -49,7 +49,7 @@ public class Person {
 
 
 
-		public void display() {
+		public void display() {                       //display method
         	 System.out.println("display of person class");
          }
          public void fun1()
